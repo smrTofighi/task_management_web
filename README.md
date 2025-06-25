@@ -1,12 +1,34 @@
-# React + Vite
+# 📝 Todo Management Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Todo Management** system built with:
 
-Currently, two official plugins are available:
+- ⚛️ **React.js** (Frontend)
+- 🚀 **Node.js & Express.js** (Backend)
+- 🎨 **Tailwind CSS** (UI Styling)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Key Features:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Admins can create **Tasks**, each containing multiple **Todos**  
+✅ Specific members, assigned by the admin, can update the status of each Todo  
+✅ Task statuses automatically update based on the overall progress of the Todos:  
+`Pending` → `In Progress` → `Completed`  
+✅ Admin access requires a unique invitation code during registration  
+✅ Fully responsive design, works seamlessly on desktop, tablet, and mobile  
+
+---
+
+## ⚡ Tech Stack:
+- React.js
+- Node.js
+- Express.js
+- Tailwind CSS
+
+---
+
+## 💡 About:
+This project is designed for efficient task and todo management within teams.  
+Admins have full control to define tasks and assign users. Members interact with assigned todos, changing statuses as they progress. The system provides real-time task status based on todo completion.
+
+
